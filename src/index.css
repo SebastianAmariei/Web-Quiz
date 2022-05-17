@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin: 0;
+  background: #F5F7FB;
+  
+}
+.Question{
+  margin-top: 0px;
+
+}
+.QuestionContainer{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 1200px;
+  transform: translate(15%, 3%)
+}
+.answersDisplay{
+  display: grid;
+  grid-template: auto auto/ repeat(4, 1fr);
+  gap: 0px 30px;
+}
+.ButtonContainer {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #4D5B9E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+.SubmitButton{
+  height: 60px;
+  width: 210px;
+  border: 3px solid #4D5B9E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #4D5B9E;
+  color: white;
+  font-size: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  transform: translate(320%, 20%)
+}
+.Score{
+  width: 210px;
+  transform: translate(324%, 20%)
+}
+/* Landing Page */
+.Landing-container{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20%;
+}
+
+.Landing-Title{
+  font-size: 50px;
+}
+
+a:link { text-decoration: none; }
+.Landing-Button{
+  padding: 15px;
+  height: 100px;
+  width: 250px;
+  border: 3px solid #4D5B9E;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #4D5B9E;
+  color: white;
+  font-size: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  margin-left: 50px;
 }
